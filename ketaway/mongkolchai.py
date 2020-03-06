@@ -56,11 +56,11 @@ class Test_Update:
         return 'email: {}.{}@hotmail.com'.format(self.name, self.lastname).lower()
 
     def thainame(self):
-        print('ชื่อภาษาไทย : ทดสอบ ทดสอบ')
-        return 'ทดสอบ ทดสอบ'
+        print('ชื่อภาษาไทย : ชื่อ นามสกุล')
+        return 'ชื่อ นามสกุล'
     
     def __str__(self):
-        return 'This is a Ketaway class'
+        return 'This is a Test_Update class'
         
 
 if __name__ == '__main__':
